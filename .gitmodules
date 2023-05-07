@@ -1,0 +1,12 @@
+[submodule "etcd-tonic/etcd"]
+	path = etcd-tonic/etcd
+	url = git@github.com:etcd-io/etcd.git
+[submodule "etcd-tonic/protobuf"]
+	path = etcd-tonic/protobuf
+	url = git@github.com:gogo/protobuf.git
+[submodule "etcd-tonic/googleapis"]
+	path = etcd-tonic/googleapis
+	url = git@github.com:googleapis/googleapis.git
+[submodule "etcd-tonic/grpc-gateway"]
+	path = etcd-tonic/grpc-gateway
+	url = git@github.com:grpc-ecosystem/grpc-gateway.git

@@ -1,0 +1,10 @@
+[package]
+name = "etcdctl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+etcd-client = { path = "../etcd-client" }
+anyhow = "1"
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4.2.7", features = ["derive"] }

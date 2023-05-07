@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+  "etcdctl",
+  "etcd-client",
+  "etcd-tonic",
+]

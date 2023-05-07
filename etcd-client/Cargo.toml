@@ -1,0 +1,8 @@
+[package]
+name = "etcd-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+etcd-tonic = { path = "../etcd-tonic" }
+tonic = "0.9"
